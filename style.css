@@ -1,0 +1,74 @@
+body {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    padding: 0rem;
+    display: flex;
+    flex-direction: column;
+    
+    .titulo-botoes {
+        margin: 1rem;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .titulo {
+        margin: 3rem;
+    }
+
+    .conjunto-abas {
+        display: flex;
+        flex-direction: column-reverse;
+        border-bottom: solid 0.05rem  gray   ;
+    }
+
+    .abas a {
+        display: inline;
+        margin: 0rem 1rem;
+        padding: 0rem;
+        text-decoration: none;
+
+    }
+    .abas a:hover {
+        cursor: pointer;
+        border-bottom:solid gray 2px;
+        
+        
+    }
+
+    .abas {
+        padding: 0rem;
+    }
+
+    .opcoes-cabecalho {
+        display: flex;
+        align-items: center;
+        padding: 0rem;
+    }
+
+    .opcoes-cabecalho button {
+        background-color: aliceblue;
+        margin: 0.5rem;
+        border: 0px;
+        padding: 0px;
+
+    }
+
+    .opcoes-cabecalho img {
+        width: 4rem;
+    }
+
+}
+
+main {
+    padding: 1rem;
+    background-color: blue;
+}
+
+footer {
+    background-color: blueviolet;
+    margin: 0px;
+}
