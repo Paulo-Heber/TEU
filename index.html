@@ -4,50 +4,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="AllInOne é um site de busca por trabalho e oferta de serviço. Você precisa de um trabalho para ganhar uma renda? - É aqui mesmo. Você precisa de alguem para fazer um serviço? - Está no lugar certo.  ">
-    <title>TEU-tudo-em-um</title>
-    <link rel="icon" href="./src/images/perfil do site.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js" integrity="sha512-Tn2m0TIpgVyTzzvmxLNuqbSJH3JP8jm+Cy3hvHrW7ndTDcJ1w5mBiksqDBb8GpE2ksktFvDB/ykZ0mDpsZj20w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./src/images/icone.png">
+    <link rel="stylesheet" href="src/reset.css">
+    <title>TEU-Tudo-Em-Um</title>
 </head>
 
 <body>
     <header>
-        <div class="titulo-botoes">
-            <h1>
-                TEU
-            </h1>
-            <div class="opcoes-cabecalho">
-                <button>
-                    <img src="src/images/botao de configurações.png" alt="Configurações">
-                    <a href=""></a>
-                </button>
-
-                <button>
-                    <img src="src/images/Perfi.png" alt="perfil">
-                    <a href=""></a>
-                </button>
+        <div class="pesquisa-perfil-notificacoes">
+            <div><img src="./src/images/icone.png" alt="icone-TEU"></div>
+            <div><input type="text"></div>
+            <div>
+                <ul class="perfil-notificacoes">
+                    <li><i class="fa-thin fa-bell"></i><button>notificações</button></li>
+                    <li><button>perfil</button></li>
             </div>
-        </div>
 
-        <nav class="conjunto-abas">
+
+        </div>
+        <nav>
             <ul class="abas">
-                <a href="./index.html" class="home">Home</a>
-                <a href="./03-Trabalhos/Trabalhos.html" class="trabalho">Trabalho</a>
-                <a href="./04-Serviços/Serviços.html" class="servico">Serviço</a>
-                <a href="" class="sugestoes">Sugestões</a>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./03-Trabalhos/Trabalhos.html">Trabalhos</a></li>
+                <li><a href="./04-Serviços/Serviços.html">Serviços</a></li>
+                <li><a href="">Atividades</a></li>
+                <li><a href="">Sugeridos</a></li>
             </ul>
         </nav>
-
-
-
+        </ul>
     </header>
 
     <main>
-
+        <section class="recentes">
+            <h2 class="titulo-secoes">Recentes</h2>
+            <p>Você ainda não possui movimentação nessa conta.</p>
+        </section>
+        <section>
+            <h2 class="titulo-secoes" >Postagem da comunidade</h2>
+        </section>
     </main>
-    <footer>
 
+    <footer>
+        <p class="roda-pe">Fale conosco </p>
     </footer>
 
 </body>
