@@ -1,11 +1,18 @@
+* a {
+    text-decoration: none;
+    color: white;
+}
+
 body {
     background-color: #0e0e12;
+    color: white;
 }
 
 header {
     background-color: #19191a;
-    width: 100%;
     border-bottom: gray solid 1px;
+    width: 100%;
+    padding: 0.5rem 1rem 0rem 0.5rem;
 
     .pesquisa-perfil-notificacoes {
         display: flex;
@@ -30,22 +37,46 @@ header {
         padding: 0rem 0.5rem;
     }
 
-   
+    .pesquisa {
+        border-radius: 2rem;
+        width: 15rem;
+        height: 2rem;
+        text-align: center;
+        background-color: #19191a;
+        color: white;
+    }
+
     .abas {
         display: flex;
         justify-content: space-between;
         list-style-type: none;
         margin-bottom: 0px;
-        padding: 0.5rem;
+        
+
+    }
+    .abas li {
+        padding: 1rem 0.5rem;
+        text-align: center;
+        min-width:100px;
+        
     }
 
-    .abas li a {
-        text-decoration: none;
+    .abas li:hover {
+        background-color: rgb(44, 43, 43);
+
     }
 }
 
 main {
-    background-color: #19191a;
+
+    .secoes {
+        background-color: #19191a;
+        margin: 2rem 5rem;
+        padding: 1rem;
+        border-radius: 1rem;
+        min-height: 10rem;
+
+    }
 
     .titulo-secoes {
         margin: 0px;
@@ -54,7 +85,7 @@ main {
 
 footer {
     background-color: #19191a;
-    margin: 0px;
+
 
     .roda-pe {
         margin: 0px;
