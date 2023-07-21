@@ -17,7 +17,7 @@ body {
 }
 
 header {
-    padding: 0.5rem 1rem 0rem 0.5rem;
+    padding: 0.5rem 0.5rem 0rem 0.5rem;
     border-bottom: gray solid 1px;
     background-color: #19191a;
     min-width: 320px;
@@ -26,7 +26,7 @@ header {
     .pesquisa-perfil-notificacoes {
         justify-content: space-between;
         align-items: center;
-       
+
         display: flex;
         max-height: 50px;
     }
@@ -42,7 +42,7 @@ header {
         list-style-type: none;
         display: inline-flex;
         color: white;
-       
+
 
     }
 
@@ -62,10 +62,7 @@ header {
 
     .abas {
         display: flex;
-        justify-content: baseline;
         margin-bottom: 0px;
-
-
     }
 
     .abas li {
@@ -103,4 +100,19 @@ main {
 footer {
     background-color: #19191a;
     height: 10rem;
+}
+
+@media (max-width:550px) {
+    .abas {
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .abas li:hover {
+        border-radius:1rem 1rem 1rem 1rem;
+    }
+
+    .pesquisa {
+        max-width: 8rem;
+    }
 }
