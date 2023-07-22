@@ -1,7 +1,7 @@
 @media (max-width:425px) {
 
     .pesquisa {
-        max-width: 8rem;
+        max-width: 10rem;
     }
 
     .abas {
@@ -9,9 +9,14 @@
         margin: 0 auto;
     }
 
-          
-    .perfil-notificacoes {
-        padding: 0rem 1rem;
-        
+    .aba {
+        border-bottom: solid 1px;
     }
+
+    main {
+        .secoes {
+            margin: 1rem;
+        }
+    }
+
 }
