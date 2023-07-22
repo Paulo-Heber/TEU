@@ -1,3 +1,7 @@
+html {
+    font-family: "Oxanium", cursive;
+}
+
 * a {
     text-decoration: none;
     color: white;
@@ -19,7 +23,7 @@ body {
 header {
     padding: 0.5rem 0.5rem 0rem 0.5rem;
     border-bottom: gray solid 1px;
-    background-color: #19191a;
+    background-color: #1b1b1b;
     min-width: 320px;
     min-height: 112px;
     width: 100%;
@@ -27,7 +31,6 @@ header {
     .pesquisa-perfil-notificacoes {
         justify-content: space-between;
         align-items: center;
-
         display: flex;
         max-height: 50px;
     }
@@ -57,7 +60,7 @@ header {
         width: 15rem;
         height: 2rem;
         text-align: center;
-        background-color: #19191a;
+        background-color: #1b1b1b;
         color: white;
     }
 
@@ -84,7 +87,7 @@ header {
 main {
 
     .secoes {
-        background-color: #19191a;
+        background-color: #1b1b1b;
         margin: 2rem auto;
         padding: 1rem;
         border-radius: 1rem;
@@ -99,6 +102,6 @@ main {
 }
 
 footer {
-    background-color: #19191a;
+    background-color: #1b1b1b;
     height: 10rem;
 }
