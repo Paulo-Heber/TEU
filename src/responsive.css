@@ -1,0 +1,17 @@
+@media (max-width:425px) {
+
+    .pesquisa {
+        max-width: 8rem;
+    }
+
+    .abas {
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+          
+    .perfil-notificacoes {
+        padding: 0rem 1rem;
+        
+    }
+}
