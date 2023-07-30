@@ -67,6 +67,11 @@ header {
         min-width: 100px;
     }
 
+    .abas .selecionado {
+        background-color: rgb(44, 43, 43);
+        border-radius: 1rem 1rem 0rem 0rem;
+    }
+
     .abas li:hover {
         background-color: rgb(44, 43, 43);
         cursor: pointer;
@@ -89,6 +94,45 @@ main {
 
     .titulo-secoes {
         margin: 0px;
+    }
+
+    .profissoes {
+
+        padding: 0.5rem;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .profissoes button {
+        margin: 10px;
+    }
+
+    .profissoes li {
+        padding: 1rem;
+        text-align: start;
+
+    }
+
+    .quest {
+        display: flex;
+        margin: 1rem;
+        flex-wrap: wrap;
+        max-height: 100%;
+        justify-content: center;
+    }
+
+    .quest li{
+        background-color: rgb(44, 43, 43);
+        border-radius: 1rem;
+        height: 150px;
+        width: 150px;
+        margin: 1rem;
+        padding-top: 0.2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
     }
 }
 
