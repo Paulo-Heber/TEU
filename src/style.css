@@ -1,12 +1,11 @@
 html {
-    font-family: "Oxanium", cursive;
+    font-family: "Oxanium", 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 * a {
     text-decoration: none;
     color: white;
 }
-
 
 body {
     background-color: #0e0e12;
@@ -58,15 +57,14 @@ header {
     }
 
     .abas {
-        display: flex;
         margin-bottom: 0px;
+        display: flex;
     }
 
     .abas li {
         padding: 1rem 0.5rem;
         text-align: center;
         min-width: 100px;
-
     }
 
     .abas li:hover {
